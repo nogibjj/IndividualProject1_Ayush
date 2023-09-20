@@ -21,3 +21,9 @@ jobs:
       run: make test
     - name: Run stats_descriptive script
       run: python stats_descriptive.py
+    - name: Run nbval
+      run: pytest --nbval test_stats.ipynb
+    - name: Execute Jupyter Notebook
+      run: |
+        pip install nbconvert
+        jupyter nbconvert --execute notebook.ipynb
