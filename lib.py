@@ -16,6 +16,4 @@ def stats_std(df):
     return df["age"].std()
 
 
-print("mean =", stats_mean(data))
-print("median =", stats_median(data))
-print("Standard_deviation =", stats_std(data))
+
