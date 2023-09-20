@@ -1,5 +1,4 @@
 import pandas as pd
-import lib
 from lib import stats_mean, stats_median, stats_std
 
 data = pd.read_csv("forbes_2022_billionaires.csv")
