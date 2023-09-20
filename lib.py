@@ -1,7 +1,6 @@
-import polars as pl
-from lib import add_numbers, subtract_numbers
+import pandas as pd
 
-data = pl.read_csv("forbes_2022_billionaires.csv")
+data = pd.read_csv("forbes_2022_billionaires.csv")
 
 
 def stats_mean(df):
@@ -14,6 +13,3 @@ def stats_median(df):
 
 def stats_std(df):
     return df["age"].std()
-
-
-

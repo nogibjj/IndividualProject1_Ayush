@@ -1,7 +1,7 @@
-import polars as pl
+import pandas as pd
 from lib import stats_mean, stats_median, stats_std
 
-data = pl.read_csv("forbes_2022_billionaires.csv")
+data = pd.read_csv("forbes_2022_billionaires.csv")
 
 
 print("mean =", stats_mean(data))
