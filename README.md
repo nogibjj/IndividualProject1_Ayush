@@ -1,5 +1,7 @@
 # IDS-706-Mini_Proj3
 
+Link to my Youtube Video describing this project : https://www.youtube.com/watch?v=_thUsMoECbo
+
 The repository contains the files utilized for Mini-Project 3 which includes:
 1. Makefile
 2. Requirements.txt
